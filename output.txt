@@ -1,0 +1,48 @@
+Array of clusters: [5 5 1 5 3 3 1 5 3 5 5 5 5 5 5 5 5 5 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 4 1 1 1
+ 4 1 1 4 4 4 4 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 2 2 1 2 2 2 2
+ 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+ 1 1]
+The Labeled Clusters 0-5, which clusters the articles by similarity.  The Cluster numbers are: Counter({1: 250, 0: 15, 5: 13, 2: 9, 4: 8, 3: 3})
+Article Clusters:                                                   text  kmeans_cluster
+0    Human serum is derived from the liquid plasma ...               5
+9    Although we have identified p16 INK4A as diffe...               5
+17   The high and low abundance fractions analyzed ...               5
+15   The global proteomic analysis of serum protein...               5
+14   We previously showed that both p16 INK4A and F...               5
+..                                                 ...             ...
+267  The oligosaccharide-binding property of HRL40 ...               0
+268  As shown in Figure 3 , HRL40 exclusively bound...               0
+269  As shown in Figure 3 , HRL40 exclusively bound...               0
+270  Mar. Drugs 2017, 15, x FOR PEER REVIEW 6 of 15...               0
+266  The oligosaccharide-binding property of HRL40 ...               0
+
+[68 rows x 2 columns]
+Ordered Centroids: [[201 161 131 ... 185 184 178]
+ [344 247 240 ... 242 156 175]
+ [224 248 247 ... 221 222   0]
+ [268 267 155 ... 172 331 357]
+ [232 214 213 ... 149 266 357]
+ [192 294 241 ... 124 123 357]]
+CLUSTER #: 1
+Key Features in each cluster:  ['lectin', 'hrl40', 'figure', '13', 'binding', '12', '15', 'type', '10', 'lectins']
+--------------------------------------------------------------------------------
+CLUSTER #: 2
+Key Features in each cluster:  ['ventilation', 'patients', 'outbreak', 'using', 'study', 'number', 'infection', 'model', 'also', 'sample']
+--------------------------------------------------------------------------------
+CLUSTER #: 3
+Key Features in each cluster:  ['ms', 'pdcs', 'patients', 'ms patients', 'healthy', 'cells', 'figure', 'compared', 'response', 'significantly']
+--------------------------------------------------------------------------------
+CLUSTER #: 4
+Key Features in each cluster:  ['proteins', 'protein', 'hiv1', 'ltnp', 'high', 'low', 'serum', 'samples', 'p16', 'patient']
+--------------------------------------------------------------------------------
+CLUSTER #: 5
+Key Features in each cluster:  ['nsp13', 'merscov nsp13', 'merscov', 'domain', 'helicase', 'rna', 'activity', 'fig', 'binding', 'structure']
+--------------------------------------------------------------------------------
+CLUSTER #: 6
+Key Features in each cluster:  ['ink4a', 'serum', 'p16', 'p16 ink4a', 'cell', 'proteins', 'cells', 'hiv1', 'treatment', 'infected']
+--------------------------------------------------------------------------------
